@@ -1,5 +1,7 @@
 Slugger :snail: :sparkles:
-Welcome to Slugger – a quirky Python game built with Pygame! In this game, you control a charming slug making its way through a field of bouncing snail shells. Will you help the slug reach the top of the screen without getting squished?
+Welcome to Slugger – Dive into the delightfully absurd world of Slugger where slugs wear bows, snail shells bounce like they're at a disco, and every millisecond counts!
+
+In this zany game, you take on the role of either a dapper slug or a chic lady slug (complete with a fashionable red bow!), both striving to make their way to the top of the screen without becoming escargot. Can you dodge, weave, and slither your way past a barrage of bouncing snail shells?
 
 Table of Contents
 Introduction
