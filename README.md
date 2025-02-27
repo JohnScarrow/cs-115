@@ -1,5 +1,7 @@
-Slugger :snail: :zap:
-Welcome to Slugger – a quirky Python game built with Pygame! In this game, you control a charming slug making its way through a field of bouncing snail shells. Will you help the slug reach the top of the screen without getting squished?
+Slugger: A Quirky Pygame Adventure
+Welcome to Slugger – an inventive and fun game built with Python and Pygame! In this game, you control a slug as it dodges bouncing snail shells on its way to victory. Can you help the slug make it to the top without a collision?
+
+(Replace this placeholder image with your own banner image if you like)
 
 Table of Contents
 Introduction
@@ -19,26 +21,28 @@ License
 Acknowledgements
 
 Introduction
-Slugger is a fun, fast-paced game where you guide a slug through perilous obstacles!
+Slugger is a charming and challenging game developed as part of my Introduction to Computer Science course. With vibrant color transitions, dynamic obstacles, and a dash of personality (a randomly selected slug character might even come with a stylish red bow!), the game demonstrates key programming concepts such as:
 
-Random Character Variation: At the start, a second slug (the female character, complete with a snazzy red bow!) is available at random.
+Game Loop & Event Handling
 
-Dynamic Visuals: Enjoy smooth color transitions on obstacles and eye color changes each time the slug moves.
+Collision Detection
 
-High Scores: Beat the clock and enter your name directly into the game when you top the leader board (preloaded with scores from Slugger and Slugget).
+Animation and Color Transitions
 
-This project was developed as part of my Introduction to Computer Science class and is designed to showcase fundamental concepts like game loops, event handling, collision detection, and file I/O with JSON.
+File I/O with JSON (for a high score system)
 
 Features
-Responsive Controls: Use the arrow keys to move the slug up, down, left, and right.
+Responsive Controls: Use the arrow keys to move the slug in all directions.
 
-Obstacles with Style: Bounce along a series of snail shells with snazzy, color-cycling effects.
+Dynamic Obstacles: Bounce past snail shells that change colors over time.
 
-Strobing Effects: Experience dynamic screen strobing (red for collisions, green for wins) for that extra dash of excitement.
+Stylish Characters: Enjoy a randomly chosen slug character—for a female slug, a red bow tops her head!
 
-Real-Time High Scores: Your completion time is recorded, and if it's one of the fastest, you get to enter your name using an in-game text box. High scores are stored in a JSON file and displayed at the end of each session.
+Strobing Effects: Dynamic visual effects with red flashes on collision and green flashes on winning.
 
-Female Character Variation: Sometimes, you'll play as a female slug with a red bow on her head – because every slug has style!
+Real-Time High Scores: Your completion time is recorded and, if fast enough, you’re prompted to enter your name using an in-game text box. High scores are stored in a JSON file.
+
+Pre-Loaded High Scores: The high score list comes preloaded with two scores: Slugger (30.0s) and Slugget (40.0s).
 
 Installation
 To run Slugger on your local machine, follow these steps:
@@ -46,11 +50,11 @@ To run Slugger on your local machine, follow these steps:
 Clone the repository:
 
 bash
-git clone https://github.com/JohnScarrow/cs-115/Slugger.git
-cd Slugger
+git clone https://github.com/JohnScarrow/cs-115.git
+cd cs-115
 Install Pygame:
 
-Make sure you have Python installed, then install Pygame using pip:
+Ensure you have Python installed, then install Pygame using pip:
 
 bash
 pip install pygame
@@ -59,34 +63,32 @@ Run the game:
 bash
 python Slugger.py
 Usage
-Movement: Use your arrow keys to move the slug around the screen.
+Objective: Guide your slug from the bottom to the top of the screen while avoiding bouncing snail shells.
 
-Objective: Reach the top of the screen without colliding with any of the bouncing snail shells.
+Movement: Use the arrow keys to move in all directions.
 
-High Scores: Upon winning (or even losing), the high score list will display for 15 seconds. If your time qualifies as a high score, an in-game prompt will ask you for your name.
+High Scores: If you win and your time is one of the best, an in-game prompt will allow you to enter your name. The high score list will then be displayed for 15 seconds before the game exits.
 
 High Scores
-The game automatically maintains a high score list saved in a high_scores.json file. The project is preloaded with two high scores:
+The game maintains a list of the top 5 best times, stored in the file high_scores.json. Two initial scores are preloaded:
 
-Slugger with 30.0 seconds
+Slugger: 30.0 seconds
 
-Slugget with 40.0 seconds
+Slugget: 40.0 seconds
 
-Try to beat them!
+Try to beat them and see your name on the leaderboard!
 
 Contributing
-Contributions are welcome! If you have any ideas, improvements, or additional features, feel free to fork the repository and submit a pull request. Whether it's a bug fix or a fun new feature, I appreciate your input.
+Contributions are welcome! Feel free to fork this repository, create new features, or fix bugs. Pull requests and suggestions are highly appreciated.
 
 License
-This project is open-source and available under the MIT License.
+This project is open source and available under the MIT License.
 
 Acknowledgements
-A big thanks to:
+Thank you to my instructors and classmates for their support and inspiration in this project.
 
-My instructors and classmates for the support and inspiration.
+Thanks to the Pygame community for their stellar resources.
 
-The Pygame community for their awesome documentation and resources.
+Special shout-out to everyone who believes even a slow slug can leave its mark!
 
-Everyone who believes that even a humble slug can be a hero!
-
-Happy Slugging! :snail: :sparkles:
+Happy Slugging and enjoy the game!
